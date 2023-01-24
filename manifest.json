@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Radio Button Checker",
+    "description": "A chrome extension that checks radio buttons of a form",
+    "version": "1.0",
+    "author": "Mohamed Khalifa",
+    "icons": {
+        "128": "buttons.png"
+    },
+    "permissions": [
+        "activeTab",
+        "storage"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    }
+}
